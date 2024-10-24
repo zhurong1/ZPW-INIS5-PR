@@ -4,13 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        .kuchnia-wloska {
+            background: #ffe0b2;
+            border: 1px solid #ffcc80;
+            padding: 15px;
+            margin: 10px 0;
+        }
+        h2 {
+            color: #d32f2f;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 15px;
+        }
+        .gallery img {
+            max-width: 30%;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Blog o kuchniach świata</h1>
     </header>
     <main>
-
+        <section class="kuchnia-wloska">
+            <h2>Kuchnia Włoska</h2>
+            <div class="gallery">
+                <img src="images/pizza1.png" alt="Pizza" />
+                <img src="images/pasta1.png" alt="Makaron" />
+                <img src="images/tiramisu1.png" alt="Lody" />
+            </div>
+            <p>Kuchnia włoska to jedna z najpopularniejszych kuchni na świecie, znana ze swojego bogactwa smaków i aromatów. Charakteryzuje się świeżymi składnikami, prostotą oraz użyciem oliwy z oliwek, ziół i przypraw.</p>
+            <p>Do najbardziej znanych potraw należy pizza, makaron, risotto oraz tiramisu. Włosi przywiązują dużą wagę do lokalnych produktów, co sprawia, że każde danie jest wyjątkowe i pełne smaku.</p>
+        </section>
     </main>
     <footer>
         <p>Projekt WSB Merito 2024</p>
